@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="author" content="MYTH"/>
+	<title> HBD </title>
+	<style type="text/css">
+		body{
+    	font-family: serif;
+    	font-size: 10px;
+    	background-image: url(flower.jpg);
+	    background-repeat: no-repeat;
+  	  background-attachment: fixed;
+	    background-size: cover;
+	    background-position: center; 
+	    height: 100%;
+    }
+
+   .header{
+ 	    color: pink;
+	    font-style: italic;
+  	  font-variant: small-caps;
+  	  font-weight: 700;
+   	  font-family: "Brush Script MT", cursive;
+	    font-size: 45px;
+    }
+
+    div{
+	    margin: 10px;
+	    color: red;
+    	margin-bottom: 20px;
+	    padding: 10px;
+    	background-color: pink;
+    	border-width: 20px;
+    	border-radius: 5px;
+	    border-color: red;
+	    width: 80%;
+	    font-size: 15px;
+	    font-family: serif;
+     	-webkit-transition-duration: 4s;
+      transition-duration: 4s;
+      margin-top: 0px;
+    }
+
+    div:hover{
+	    background-color: red;
+     	color: pink;
+	    font-family: "Brush Script MT", cursive;
+	    font-size: 20px;
+	    padding: 2px;
+    }
+
+    .heart{
+	    text-align: center;
+	    font-size: 55px;
+    }
+
+    img{
+	    width: 80%;
+	    border-radius: 10px;
+     	height: auto;
+    }
+
+   .from{
+	    float: right;
+	    font-size: 20px;
+    	color: white;
+   }
+
+   #from{
+    	font-family: cursive;
+    	color: pink;
+    	float: right;
+    	margin: 10px;
+    	font-size: 20px;
+   }
+
+    button{
+    	background-color: red;
+    	color: pink;
+     	border-radius: 10px;
+	    border-color: pink;
+	    padding: 10px;
+	    font-family: serif;
+    	font-variant: small-caps;
+	    outline: none;
+	    -webkit-transition-duration: 7s;
+      transition-duration: 7s;
+    }
+
+    button:hover{
+	    padding: 10px;
+	    font-size: 17px;
+    	font-variant: normal;
+    	background-color: pink;
+	    color: red;
+	    border-color: red;
+	    font-family: "Brush Script MT", cursive;
+    }
+    
+    .alert {
+      opacity: 1;
+      transition: opacity 0.6s;
+    }
+
+	</style>
+</head>
+<body>
+	<audio controls>
+			<source src="sound.mp3" type="audio/mpeg">
+			<source src="sound.ogg" type="audio/ogg">
+		Unable to play audio!
+	</audio>
+	<p>
+		<center>
+			<span class="heart">💗</span><br>
+			<span class="header">Happy Birthday</span><br>
+			<span style="font-size: 27px; font-variant: normal;" class="header">To someone worth caring for!</span>
+    </center>
+	</p>
+	<center>
+		<img src="vick1.jpg" alt="Oops!, Invalid Image!">
+		<div>
+			<p>Beautiful.  🥰</p>
+		</div>
+		<img src="vick2.jpg" alt="Oops!, Invalid Image!">
+		<div>
+			<p>Honest. 🌹</p>
+		</div>
+		<img src="vick3.jpg" alt="Oops!, Invalid Image!">
+		<div>
+			<p>Sweet. 🥺</p>
+		</div>
+		<img src="vick4.jpg" alt="Oops!, Invalid Image!">
+		<div>
+			<p>Sincere. 🌹</p>
+		</div>
+		<img src="vick5.jpg" alt="Oops!, Invalid Image!">
+		<div>
+			<p>Hot 🥵</p>
+		</div>
+		<button id="hbd" onclick="hbd()" >&nbsp&nbspShort Note&nbsp&nbsp</button>
+	<p>
+    <cite id="from">IFY 🌈</cite>
+  </p>
+	<script type="text/javascript">
+			var letter ="To Someone really special💕💕"
+			alert(letter)
+			
+			var music = "Background audio:🎵\n\n\n\n.......Simple & Solemn 🌺"
+			alert(music)
+			
+			var plz ="Please tap the images' caption for more effects"
+      alert(plz)
+
+      function hbd() {
+	      document.getElementById("hbd").innerHTML =
+	"Vicky<br/>Ella"
+	}
+	</script>
+</body>
+</html>
